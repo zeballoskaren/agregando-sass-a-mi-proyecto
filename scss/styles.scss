@@ -1,0 +1,74 @@
+@import "index";
+@import "contacto";
+@import "galeria";
+@import "promociones";
+@import "regalos";
+
+
+
+
+.img-fluid{
+    max-width: 150px;
+    height: 150px;
+}
+
+.header{
+    background-image: url(../img/fondoheader.png);
+}
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+.logotipo{
+    width: 150px;
+    height: 150px; 
+}
+
+
+h3{
+    padding: 0px;
+    margin: 30px;
+    border-style:groove;
+    border-radius: 110px;
+    border-color:brown;
+    border-top-width: 10px;
+}
+
+.listaInicio {
+              list-style: none;
+                li{
+                    display: inline-block;
+                    line-height: 1.4;
+                    a{
+                        border-style:double;
+                        background-size: 70px;
+                        text-decoration: none;
+                        color: black;
+                        line-height: 1.4;
+                        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                     }
+                   } 
+              }    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

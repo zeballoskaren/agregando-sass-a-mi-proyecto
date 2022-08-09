@@ -1,0 +1,152 @@
+//////////////* FORMATO GENERAL DE TODOS LOS HTML *///////////
+html{
+    background-image: linear-gradient(to right, brown 20%, black 100%);
+    background-size:contain;
+} 
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-fluid{
+    max-width: 150px;
+    height: 150px;
+}
+
+.header{
+    background-image: url(../img/fondoheader.png);
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+
+.logotipo{
+    width: 150px;
+    height: 150px; 
+}
+
+
+h3{
+    padding: 0px;
+    margin: 30px;
+    border-style:groove;
+    border-radius: 110px;
+    border-color:brown;
+    border-top-width: 10px;
+}
+
+.listaInicio {
+    list-style: none;
+        li{
+            display: inline-block;
+            line-height: 1.4;
+                a{
+                    border-style:double;
+                    background-size: 70px;
+                    text-decoration: none;
+                    color: black;
+                    line-height: 1.4;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }
+            } 
+    }   
+
+
+///////////////* CONTENIDO */////////////
+#lapicadanosune{
+    background-repeat:no-repeat;
+    background-size: 500%;
+
+}
+
+
+
+.card__titulo{
+    color: rgb(231, 231, 87);
+    font-size: 40px;
+    text-align:right;
+    margin: auto;
+}
+
+.card_imagen{
+    width: 500%;
+    height: 500%;
+    padding-block: 20px;
+    padding-inline: 20px;
+    border-style:dashed;
+    border-color: rgb(231, 231, 87);
+    border-width: 10px;
+    
+}
+
+.card__titulo--texto{
+    color:rgb(251, 251, 79);
+    font-size: 20px;
+    font-weight: normal;
+    text-align:right;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    padding-left: 55px;
+
+}
+
+.card__subtitulo{
+    color:black;
+    font-size: 30px;
+    margin-bottom: 0%;
+    font-weight: bold;
+    border-color: brown;
+    border-style: groove;
+    text-align: center;
+}
+.card__subtitulo--texto{
+    color: rgb(251, 251, 79);
+    font-size: 20px;
+    text-align: center;
+    font-weight:lighter;
+    font-style: oblique;
+}
+
+
+
+///////////* VIDEO INICIO *//////////
+.video_index{
+    border-style: double;
+    border-color: black;
+}
+
+///////////* FINAL DE PAGINA *//////////
+#final{
+    background-image:url(../img/fondoheader.png);
+    background-size: 100%;
+}
+
+
+footer {
+	text-align: center;
+
+}
+
+.logotipoFace{
+    width: 50px;
+    height: 50px;
+    padding-top: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.mR{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+

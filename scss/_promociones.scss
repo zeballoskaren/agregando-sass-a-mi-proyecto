@@ -1,0 +1,141 @@
+html{
+    background-image: linear-gradient(to right, brown 20%, black 100%);
+    background-size:contain;
+} 
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-fluid{
+    max-width: 150px;
+    height: 150px;
+}
+
+.header{
+    background-image: url(../img/fondoheader.png);
+}
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+.logotipo{
+    width: 150px;
+    height: 150px; 
+}
+
+
+h3{
+    padding: 0px;
+    margin: 30px;
+    border-style:groove;
+    border-radius: 110px;
+    border-color:brown;
+    border-top-width: 10px;
+}
+
+.listaInicio {
+              list-style: none;
+                li{
+                    display: inline-block;
+                    line-height: 1.4;
+                    a{
+                        border-style:double;
+                        background-size: 70px;
+                        text-decoration: none;
+                        color: black;
+                        line-height: 1.4;
+                        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                     }
+                   } 
+              }   
+
+
+
+///////////* CONTENIDO *//////////
+
+.texto_fiambres1{
+    color: rgb(231, 231, 87);
+    font-size: 15px;
+    text-align:start;
+    font-weight: bolder;
+    border-width: 5px;
+}
+.foto_fiambres1{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-style:dashed;
+    border-color: rgb(246, 255, 113);
+    border-width: 5px;
+    align-items: center;
+    transition: height 2s, width 2s;
+
+}
+
+.foto_fiambres1:hover{
+    width: 300px;
+    height: 300px;
+    }
+
+.card_fiambres1{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 25px;
+    background-size: 2400px;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    padding-bottom: 120px;
+}
+
+.caja_fiambres1{
+    width: 1250px;
+    height: 1180px;
+
+}
+
+.las_mejores--ofertas{
+    border: solid 3px black;
+    border-bottom: 50px;
+    padding: 5px;
+    margin: left;
+    overflow: scroll;
+    display: inline-block;
+    font-size: 10px;
+    width: 120px;
+    height: 80px;
+}
+
+/*FINAL DE PAGINA */
+#final{
+    background-image:url(../img/fondoheader.png);
+    background-size: 100%;
+}
+
+
+footer {
+	text-align: center;
+
+}
+
+.logotipoFace{
+    width: 50px;
+    height: 50px;
+    padding-top: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.mR{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}

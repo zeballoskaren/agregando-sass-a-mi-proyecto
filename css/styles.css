@@ -1,389 +1,697 @@
-html{
-    background-image: linear-gradient(to right, brown 20%, black 100%);
-    background-size:contain;
-} 
-img{
-    max-width: 100%;
-    max-height: 100%;
+html {
+  background-image: linear-gradient(to right, brown 20%, black 100%);
+  background-size: contain;
 }
 
-/* el asterisco es obligatorio para dar margen y relleno al medio de la pagin */
-#lapicadanosune{
-    background-repeat:no-repeat;
-    background-size: contain;
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-#final{
-    background-image:url(../img/fondoheader.png);
-    background-size: 100%;
+.img-fluid {
+  max-width: 150px;
+  height: 150px;
 }
 
-.img-fluid{
-    max-width: 150px;
-    height: 150px;
+.header {
+  background-image: url(../img/fondoheader.png);
 }
 
-
-
-.logotipoFace{
-    width: 50px;
-    height: 50px;
-    padding-top: 30px;
-    margin-right: 100px;
-    margin-left: 100px;
-}
-.mR{
-    text-align:center;
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-    font-weight: bold;
-    font-size: 15px;
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
-.ubicacion{
-    font-size: 20px;
-    color:black;
-    text-decoration:underline;
-    font-weight: bold;
-    margin: 20px;
+.logotipo {
+  width: 150px;
+  height: 150px;
 }
 
-.card{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 10px;
-    padding: 10px;
-}
-.card{
-    background-color: transparent;
-}
-.card__titulo{
-    color: rgb(231, 231, 87);
-    font-size: 40px;
-    text-align:right;
-    margin: auto;
+h3 {
+  padding: 0px;
+  margin: 30px;
+  border-style: groove;
+  border-radius: 110px;
+  border-color: brown;
+  border-top-width: 10px;
 }
 
-.card_imagen{
-    width: 500%;
-    height: 500%;
-    padding-block: 20px;
-    padding-inline: 20px;
-    border-style:dashed;
-    border-color: rgb(231, 231, 87);
-    border-width: 10px;
-    
+.listaInicio {
+  list-style: none;
+}
+.listaInicio li {
+  display: inline-block;
+  line-height: 1.4;
+}
+.listaInicio li a {
+  border-style: double;
+  background-size: 70px;
+  text-decoration: none;
+  color: black;
+  line-height: 1.4;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-
-.card__titulo--texto{
-    color:rgb(251, 251, 79);
-    font-size: 20px;
-    font-weight: normal;
-    text-align:right;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    margin-left: 70px;
-    padding-left: 55px;
-
-}
-.card__subtitulo{
-    color:black;
-    font-size: 30px;
-    margin-bottom: 0%;
-    font-weight: bold;
-    border-color: brown;
-    border-style: groove;
-    text-align: center;
-}
-.card__subtitulo--texto{
-    color: rgb(251, 251, 79);
-    font-size: 20px;
-    text-align: center;
-    font-weight:lighter;
-    font-style: oblique;
+#lapicadanosune {
+  background-repeat: no-repeat;
+  background-size: 500%;
 }
 
-.video_index{
-    border-style: double;
-    border-color: black;
+.card__titulo {
+  color: rgb(231, 231, 87);
+  font-size: 40px;
+  text-align: right;
+  margin: auto;
 }
 
-.header{
-    background-image: url(../img/fondoheader.png);
+.card_imagen {
+  width: 500%;
+  height: 500%;
+  padding-block: 20px;
+  padding-inline: 20px;
+  border-style: dashed;
+  border-color: rgb(231, 231, 87);
+  border-width: 10px;
 }
 
-
-
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items:flex-end;
-}
-.logotipo{
-    width: 150px;
-    height: 150px; 
+.card__titulo--texto {
+  color: rgb(251, 251, 79);
+  font-size: 20px;
+  font-weight: normal;
+  text-align: right;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  padding-left: 55px;
 }
 
-
-h3{
-    padding: 0px;
-    margin: 30px;
-    border-style:groove;
-    border-radius: 110px;
-    border-color:brown;
-    border-top-width: 10px;
+.card__subtitulo {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 0%;
+  font-weight: bold;
+  border-color: brown;
+  border-style: groove;
+  text-align: center;
 }
-ul li a{
-    color: black;
-    line-height: 1.4;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+.card__subtitulo--texto {
+  color: rgb(251, 251, 79);
+  font-size: 20px;
+  text-align: center;
+  font-weight: lighter;
+  font-style: oblique;
 }
-.listaInicio li{
-    list-style: none;
-    display: inline-block;
-    border-style:double;
-    background-size: 70px;
 
-
+.video_index {
+  border-style: double;
+  border-color: black;
 }
-a{
-    text-decoration: none;
+
+#final {
+  background-image: url(../img/fondoheader.png);
+  background-size: 100%;
 }
 
 footer {
-	text-align: center;
-
+  text-align: center;
 }
 
-/*HTML CONTACTO */
-
-.recuadroFormulario{
-    border-color: black;
-    border-style: double;
-    border-width: 5px;
+.logotipoFace {
+  width: 50px;
+  height: 50px;
+  padding-top: 30px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
-input for {
-    height: 100px;
-    width: 100px;
-    transition: all 2s;
+.mR {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
 }
 
-input:focus {
-    width: 300px;
-    height: 20px;
-    font-size: 20px;
+html {
+  background-image: linear-gradient(to right, brown 20%, black 100%);
+  background-size: contain;
 }
 
-.mapa{
-    white-space:nowrap;
-    text-align: center;
-    width: 300px;
-    margin: 5px;
-}
-#largeMapLink{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10px;
-    color: black;
-    margin: 5px;
-}
-#dirMapLink{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10px;
-    color: black;
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-/*HTML GALERIA */
-.nuestrasDelicias{
-    font-size: 50px;
-    color: rgb(231, 231, 87);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style:normal;
-    text-align:end;
-
-
+.img-fluid {
+  max-width: 150px;
+  height: 150px;
 }
 
-.caja_fiambres{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px;
-    background-image: url(../img/junckers-plank-oak-darkcoco-textured.Jpg);
-    background-size: 2100px;
-    background-repeat: no-repeat;
-}
-.caja_fiambres{
-    height:min-content;
+.header {
+  background-image: url(../img/fondoheader.png);
 }
 
-
-.card_fiambres{
-    background-size: 2000px;
-    height: 400px;
-    width: 500px;
-}
-.nombres_fiambres{
-    font-size: 25px;
-    font-weight: bolder;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(251, 251, 79);
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
-.texto_fiambres{
-    color:blanchedalmond;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-    margin-right: 100px;
-    padding-bottom: 3px;
-
-}
-.foto_fiambres{
-    width: 200px;
-    height: 200px;
-    margin-left:  100px;
-    border-style:dashed;
-    border-color: brown;
-    border-width: 5px;
-    align-items: center;
-    
+.logotipo {
+  width: 150px;
+  height: 150px;
 }
 
-/* PROMOCIONES */
-
-.las_mejores--ofertas{
-    border: solid 3px black;
-    border-bottom: 50px;
-    padding: 5px;
-    margin: left;
-    overflow: scroll;
-    display: inline-block;
-    font-size: 10px;
-    width: 120px;
-    height: 80px;
+h3 {
+  padding: 0px;
+  margin: 30px;
+  border-style: groove;
+  border-radius: 110px;
+  border-color: brown;
+  border-top-width: 10px;
 }
 
-.container_grid{
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: 10px;
-    grid-template-areas:
-            "header header"
-            "main aside"
-            "footer footer"
+.listaInicio {
+  list-style: none;
+}
+.listaInicio li {
+  display: inline-block;
+  line-height: 1.4;
+}
+.listaInicio li a {
+  border-style: double;
+  background-size: 70px;
+  text-decoration: none;
+  color: black;
+  line-height: 1.4;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-header{
-    grid-area: header;
-    grid-template-columns: repeat (2, 2fr);
-    grid-area: -10px;
+/* FORMULARIO */
+form .recuadroFormulario {
+  border-color: black;
+  border-style: double;
+  border-width: 5px;
 }
-main{
-    grid-area: main;
-    grid-template-columns: repeat(1, 1fr);
+form .recuadroFormulario input {
+  height: 100px;
+  width: 100px;
+  transition: all 2s;
 }
-
-aside{
-    grid-area: aside;
-    grid-template-columns: 0px;
-}
-
-footer{
-    grid-area: footer;
-    grid-template-columns: auto;
-    grid-area: 300px;
+form .recuadroFormulario input:focus {
+  width: 300px;
+  height: 20px;
+  font-size: 20px;
 }
 
-
-.texto_fiambres1{
-    color: rgb(231, 231, 87);
-    font-size: 15px;
-    text-align:start;
-    font-weight: bolder;
-    border-width: 5px;
-}
-.foto_fiambres1{
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    padding: 10px;
-    border-style:dashed;
-    border-color: rgb(246, 255, 113);
-    border-width: 5px;
-    align-items: center;
-    transition: height 2s, width 2s;
-
+/* UBICACION */
+.ubicacion {
+  font-size: 20px;
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 20px;
 }
 
-
-.foto_fiambres1:hover{
-    width: 300px;
-    height: 300px;
-    }
-
-.card_fiambres1{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    gap: 25px;
-    background-size: 2400px;
-    background-repeat: no-repeat;
-    margin-top: 5px;
-    padding-bottom: 120px;
+.mapa {
+  white-space: nowrap;
+  text-align: center;
+  width: 300px;
+  margin: 5px;
 }
 
-.caja_fiambres1{
-    width: 1250px;
-    height: 1180px;
-
+#largeMapLink {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  color: black;
+  margin: 5px;
 }
 
-.gradiente{
-    background-image: linear-gradient rgba(243, 143, 12, 0.553)60%,rgb(251, 251, 79)40%;
-
+#dirMapLink {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  color: black;
 }
 
-/* REGALOS */
-
-.container-fluid{
-    background-color: transparent;
+/*Final de Pagina */
+#final {
+  background-image: url(../img/fondoheader.png);
+  background-size: 100%;
+  text-align: center;
 }
 
+footer {
+  text-align: center;
+}
+
+.logotipoFace {
+  width: 50px;
+  height: 50px;
+  padding-top: 30px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.footer .mR p {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+html {
+  background-image: linear-gradient(to right, brown 20%, black 100%);
+  background-size: contain;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img-fluid {
+  max-width: 150px;
+  height: 150px;
+}
+
+.header {
+  background-image: url(../img/fondoheader.png);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logotipo {
+  width: 150px;
+  height: 150px;
+}
+
+h3 {
+  padding: 0px;
+  margin: 30px;
+  border-style: groove;
+  border-radius: 110px;
+  border-color: brown;
+  border-top-width: 10px;
+}
+
+.listaInicio {
+  list-style: none;
+}
+.listaInicio li {
+  display: inline-block;
+  line-height: 1.4;
+}
+.listaInicio li a {
+  border-style: double;
+  background-size: 70px;
+  text-decoration: none;
+  color: black;
+  line-height: 1.4;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.nuestrasDelicias {
+  font-size: 50px;
+  color: rgb(231, 231, 87);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+  text-align: end;
+}
+
+.caja_fiambres {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  background-image: url(../img/junckers-plank-oak-darkcoco-textured.Jpg);
+  background-size: 2100px;
+  background-repeat: no-repeat;
+}
+
+.caja_fiambres {
+  height: min-content;
+}
+
+.card_fiambres {
+  background-size: 2000px;
+  height: 400px;
+  width: 500px;
+}
+
+.nombres_fiambres {
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(251, 251, 79);
+}
+
+.texto_fiambres {
+  color: blanchedalmond;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 100px;
+  padding-bottom: 3px;
+}
+
+.foto_fiambres {
+  width: 200px;
+  height: 200px;
+  margin-left: 100px;
+  border-style: dashed;
+  border-color: brown;
+  border-width: 5px;
+  align-items: center;
+}
+
+/*FINAL DE PAGINA */
+#final {
+  background-image: url(../img/fondoheader.png);
+  background-size: 100%;
+}
+
+footer {
+  text-align: center;
+}
+
+.logotipoFace {
+  width: 50px;
+  height: 50px;
+  padding-top: 30px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.mR {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+html {
+  background-image: linear-gradient(to right, brown 20%, black 100%);
+  background-size: contain;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img-fluid {
+  max-width: 150px;
+  height: 150px;
+}
+
+.header {
+  background-image: url(../img/fondoheader.png);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logotipo {
+  width: 150px;
+  height: 150px;
+}
+
+h3 {
+  padding: 0px;
+  margin: 30px;
+  border-style: groove;
+  border-radius: 110px;
+  border-color: brown;
+  border-top-width: 10px;
+}
+
+.listaInicio {
+  list-style: none;
+}
+.listaInicio li {
+  display: inline-block;
+  line-height: 1.4;
+}
+.listaInicio li a {
+  border-style: double;
+  background-size: 70px;
+  text-decoration: none;
+  color: black;
+  line-height: 1.4;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.texto_fiambres1 {
+  color: rgb(231, 231, 87);
+  font-size: 15px;
+  text-align: start;
+  font-weight: bolder;
+  border-width: 5px;
+}
+
+.foto_fiambres1 {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  border-style: dashed;
+  border-color: rgb(246, 255, 113);
+  border-width: 5px;
+  align-items: center;
+  transition: height 2s, width 2s;
+}
+
+.foto_fiambres1:hover {
+  width: 300px;
+  height: 300px;
+}
+
+.card_fiambres1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 25px;
+  background-size: 2400px;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  padding-bottom: 120px;
+}
+
+.caja_fiambres1 {
+  width: 1250px;
+  height: 1180px;
+}
+
+.las_mejores--ofertas {
+  border: solid 3px black;
+  border-bottom: 50px;
+  padding: 5px;
+  margin: left;
+  overflow: scroll;
+  display: inline-block;
+  font-size: 10px;
+  width: 120px;
+  height: 80px;
+}
+
+/*FINAL DE PAGINA */
+#final {
+  background-image: url(../img/fondoheader.png);
+  background-size: 100%;
+}
+
+footer {
+  text-align: center;
+}
+
+.logotipoFace {
+  width: 50px;
+  height: 50px;
+  padding-top: 30px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.mR {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+html {
+  background-image: linear-gradient(to right, brown 20%, black 100%);
+  background-size: contain;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container-fluid {
+  background-color: transparent;
+}
+
+.img-fluid {
+  max-width: 150px;
+  height: 150px;
+}
+
+.header {
+  background-image: url(../img/fondoheader.png);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logotipo {
+  width: 150px;
+  height: 150px;
+}
+
+h3 {
+  padding: 0px;
+  margin: 30px;
+  border-style: groove;
+  border-radius: 110px;
+  border-color: brown;
+  border-top-width: 10px;
+}
+
+.listaInicio {
+  list-style: none;
+}
+.listaInicio li {
+  display: inline-block;
+  line-height: 1.4;
+}
+.listaInicio li a {
+  border-style: double;
+  background-size: 70px;
+  text-decoration: none;
+  color: black;
+  line-height: 1.4;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 
 .diadelamigo {
-    font-size: 55px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-left: 70px;
-    margin-top: 20px;
-    width: 450px;
-    height: 100px;
-    animation-name: diadelamigo;
-    animation-duration: 10s;
-    animation-delay: 1s;
+  font-size: 55px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: 70px;
+  margin-top: 20px;
+  width: 450px;
+  height: 100px;
+  animation-name: diadelamigo;
+  animation-duration: 10s;
+  animation-delay: 1s;
 }
 
 .foto_regalos {
-    width: 350px;
-    height: 250px;
-    padding: 10px;
-    border-style:dashed;
-    margin-right: 50px;
-    margin-bottom: 20px;
-    border-color: rgb(246, 255, 113);
-    border-width: 5px;
-    background-color: transparent;
+  width: 350px;
+  height: 250px;
+  padding: 10px;
+  border-style: dashed;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  border-color: rgb(246, 255, 113);
+  border-width: 5px;
+  background-color: transparent;
 }
 
+#final {
+  background-image: url(../img/fondoheader.png);
+  background-size: 100%;
+}
 
+footer {
+  text-align: center;
+}
 
+.logotipoFace {
+  width: 50px;
+  height: 50px;
+  padding-top: 30px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
 
+.mR {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
 
+.img-fluid {
+  max-width: 150px;
+  height: 150px;
+}
 
+.header {
+  background-image: url(../img/fondoheader.png);
+}
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 
+.logotipo {
+  width: 150px;
+  height: 150px;
+}
+
+h3 {
+  padding: 0px;
+  margin: 30px;
+  border-style: groove;
+  border-radius: 110px;
+  border-color: brown;
+  border-top-width: 10px;
+}
+
+.listaInicio {
+  list-style: none;
+}
+.listaInicio li {
+  display: inline-block;
+  line-height: 1.4;
+}
+.listaInicio li a {
+  border-style: double;
+  background-size: 70px;
+  text-decoration: none;
+  color: black;
+  line-height: 1.4;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
