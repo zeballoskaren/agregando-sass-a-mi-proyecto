@@ -1,11 +1,70 @@
+///////////* INICIO */////////
 @import "index";
+////////* CONTACTO *//////
 @import "contacto";
+///////* GALERIA *//////
 @import "galeria";
+//////* PROMOCIONES *///////
 @import "promociones";
+//////*REGALOS */////////
 @import "regalos";
 
+///* MIXIN *///
+@mixin estiloFuente{
+    color:rgb(251, 251, 79);
+    font-size: 20px;
+    font-weight: normal;   
+}
 
+h1{
+    font-size: 20px;
+    @include estiloFuente;
+}
 
+h2{
+    font-size: 15px;
+     @include estiloFuente;
+}
+
+///* EXTENDED */////
+.foto {
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+    border-style:dashed;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-color: rgb(246, 255, 113);
+    border-width: 5px;
+    background-color: black;
+}
+
+.foto_regalos{
+    @extend .foto;
+    background-color: transparent;
+
+}
+
+.foto_fiambres1{
+    @extend .foto;
+    border-style:dashed;
+    align-items: center;
+}
+
+////* MAP GET *////
+$estilo-parrafo : (
+    color:blanchedalmond,
+    centro: center,
+    negrita: bold,
+    tFuente: 18px,
+);
+
+p{
+ color: map-get($estilo-parrafo, color);
+ text-align: map-get($estilo-parrafo, centro);
+ font-weight: map-get($estilo-parrafo, negrita);
+ font-size: map-get($estilo-parrafo, tFuente);
+}
 
 .img-fluid{
     max-width: 150px;

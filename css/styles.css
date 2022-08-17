@@ -120,15 +120,15 @@ footer {
 }
 
 .logotipoFace {
-  width: 50px;
-  height: 50px;
-  padding-top: 30px;
-  margin-right: 100px;
-  margin-left: 100px;
+  width: 40px;
+  height: 100px;
+  padding-top: 20px;
+  align-items: center;
 }
 
 .mR {
-  text-align: center;
+  margin-top: 50px;
+  text-decoration: none;
   font-family: "Times New Roman", Times, serif;
   color: black;
   font-weight: bold;
@@ -192,17 +192,18 @@ h3 {
 }
 
 /* FORMULARIO */
-form .recuadroFormulario {
+.recuadroFormulario {
   border-color: black;
   border-style: double;
   border-width: 5px;
 }
-form .recuadroFormulario input {
+
+input for {
   height: 100px;
   width: 100px;
   transition: all 2s;
 }
-form .recuadroFormulario input:focus {
+input:focus {
   width: 300px;
   height: 20px;
   font-size: 20px;
@@ -251,16 +252,15 @@ footer {
 }
 
 .logotipoFace {
-  width: 50px;
-  height: 50px;
-  padding-top: 30px;
-  margin-right: 100px;
-  margin-left: 100px;
+  width: 40px;
+  height: 100px;
+  padding-top: 20px;
+  align-items: center;
 }
 
-.footer .mR p {
+.mR {
+  margin-top: 50px;
   text-decoration: none;
-  text-align: center;
   font-family: "Times New Roman", Times, serif;
   color: black;
   font-weight: bold;
@@ -389,15 +389,15 @@ footer {
 }
 
 .logotipoFace {
-  width: 50px;
-  height: 50px;
-  padding-top: 30px;
-  margin-right: 100px;
-  margin-left: 100px;
+  width: 40px;
+  height: 100px;
+  padding-top: 20px;
+  align-items: center;
 }
 
 .mR {
-  text-align: center;
+  margin-top: 50px;
+  text-decoration: none;
   font-family: "Times New Roman", Times, serif;
   color: black;
   font-weight: bold;
@@ -524,15 +524,15 @@ footer {
 }
 
 .logotipoFace {
-  width: 50px;
-  height: 50px;
-  padding-top: 30px;
-  margin-right: 100px;
-  margin-left: 100px;
+  width: 40px;
+  height: 100px;
+  padding-top: 20px;
+  align-items: center;
 }
 
 .mR {
-  text-align: center;
+  margin-top: 50px;
+  text-decoration: none;
   font-family: "Times New Roman", Times, serif;
   color: black;
   font-weight: bold;
@@ -599,7 +599,7 @@ h3 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.diadelamigo {
+.animacion {
   font-size: 55px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin-left: 70px;
@@ -633,19 +633,61 @@ footer {
 }
 
 .logotipoFace {
-  width: 50px;
-  height: 50px;
-  padding-top: 30px;
-  margin-right: 100px;
-  margin-left: 100px;
+  width: 40px;
+  height: 100px;
+  padding-top: 20px;
+  align-items: center;
 }
 
 .mR {
-  text-align: center;
+  margin-top: 50px;
+  text-decoration: none;
   font-family: "Times New Roman", Times, serif;
   color: black;
   font-weight: bold;
   font-size: 15px;
+}
+
+h1 {
+  font-size: 20px;
+  color: rgb(251, 251, 79);
+  font-size: 20px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 15px;
+  color: rgb(251, 251, 79);
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.foto, .foto_fiambres1, .foto_regalos {
+  width: 350px;
+  height: 250px;
+  padding: 10px;
+  border-style: dashed;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  border-color: rgb(246, 255, 113);
+  border-width: 5px;
+  background-color: black;
+}
+
+.foto_regalos {
+  background-color: transparent;
+}
+
+.foto_fiambres1 {
+  border-style: dashed;
+  align-items: center;
+}
+
+p {
+  color: blanchedalmond;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .img-fluid {
